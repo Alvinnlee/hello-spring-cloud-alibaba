@@ -17,6 +17,13 @@ public class EchoController {
 
     @GetMapping(value = "/echo/{string}")
     public String echo(@PathVariable String string) {
+
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("111111111111111111111111111");
         return "Hello Nacos Provider " + port;
     }
 }

@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -20,5 +21,11 @@ public class TestEchoController {
     public String echo(@PathVariable String str) {
         System.out.println( port );
         return echoService.echo(str);
+    }
+
+    @PostMapping(value = "/feign" )
+    public String echo1( ) {
+        System.out.println( port );
+        return echoService.echo("1");
     }
 }
