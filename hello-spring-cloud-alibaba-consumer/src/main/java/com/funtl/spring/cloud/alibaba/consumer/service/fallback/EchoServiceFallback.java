@@ -10,6 +10,6 @@ public class EchoServiceFallback implements EchoService {
 
     @Override
     public String echo(String string) {
-        return "echo fallback";
+        return "请求也被熔断";
     }
 }

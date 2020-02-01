@@ -27,4 +27,11 @@ public class RoctController {
         return "好的";
     }
 
+    @RequestMapping("d1")
+    public String b() throws Exception {
+       producer.sendTransactionalMsg("transactional-msg1", 1);
+
+        return "好的tran";
+    }
+
 }

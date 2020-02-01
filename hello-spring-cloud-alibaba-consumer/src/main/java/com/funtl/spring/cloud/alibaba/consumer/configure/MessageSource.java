@@ -8,4 +8,7 @@ public interface MessageSource {
     @Output("admin-login-log-topic")
     MessageChannel adminLoginLog();
 
+    @Output("output2")
+    MessageChannel output2();
+
 }

@@ -17,13 +17,85 @@
       <module name="hello-spring-cloud-alibaba-dependencies" target="1.5" />
       <module name="hello-spring-cloud-alibaba-gateway" target="1.8" />
       <module name="hello-spring-cloud-alibaba-provider" target="1.8" />
+      <module name="spring-cloud-alibaba" target="1.8" />
+      <module name="spring-cloud-alibaba-master" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account-service" options="-parameters -parameters" />
+      <module name="acm-local-example" options="-parameters -parameters" />
+      <module name="ans-consumer-feign-example" options="-parameters -parameters" />
+      <module name="ans-consumer-ribbon-example" options="-parameters -parameters" />
+      <module name="ans-provider-example" options="-parameters -parameters" />
+      <module name="business-service" options="-parameters -parameters" />
       <module name="hello-spring-cloud-alibaba-consumer" options="-parameters" />
       <module name="hello-spring-cloud-alibaba-gateway" options="-parameters" />
       <module name="hello-spring-cloud-alibaba-provider" options="-parameters" />
+      <module name="nacos-config-example" options="-parameters -parameters" />
+      <module name="nacos-discovery-consumer-example" options="-parameters -parameters" />
+      <module name="nacos-discovery-provider-example" options="-parameters -parameters" />
+      <module name="nacos-discovery-spring-cloud-config-client" options="-parameters -parameters" />
+      <module name="nacos-discovery-with-spring-cloud-config-example" options="-parameters -parameters" />
+      <module name="nacos-gateway-discovery-example" options="-parameters -parameters" />
+      <module name="nacos-gateway-provider-example" options="-parameters -parameters" />
+      <module name="order-service" options="-parameters -parameters" />
+      <module name="oss-example" options="-parameters -parameters" />
+      <module name="rocketmq-consume-example" options="-parameters -parameters" />
+      <module name="rocketmq-produce-example" options="-parameters -parameters" />
+      <module name="schedulerx-simple-task-example" options="-parameters -parameters" />
+      <module name="sentinel-core-example" options="-parameters -parameters" />
+      <module name="sentinel-dubbo-api" options="-parameters -parameters" />
+      <module name="sentinel-dubbo-consumer-example" options="-parameters -parameters" />
+      <module name="sentinel-dubbo-provider-example" options="-parameters -parameters" />
+      <module name="sentinel-feign-consumer-example" options="-parameters -parameters" />
+      <module name="sentinel-feign-provider-example" options="-parameters -parameters" />
+      <module name="sentinel-spring-cloud-gateway-example" options="-parameters -parameters" />
+      <module name="sentinel-webflux-example" options="-parameters -parameters" />
+      <module name="sentinel-zuul-example" options="-parameters -parameters" />
+      <module name="sms-example" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-coverage" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-dubbo" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-nacos-config" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-nacos-config-server" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-nacos-discovery" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-seata" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-sentinel" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-sentinel-datasource" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-sentinel-gateway" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-sidecar" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-sidecar-consul-example" options="-parameters -parameters" />
+      <module name="spring-cloud-alibaba-sidecar-nacos-example" options="-parameters -parameters" />
+      <module name="spring-cloud-alicloud-acm" options="-parameters -parameters" />
+      <module name="spring-cloud-alicloud-ans" options="-parameters -parameters" />
+      <module name="spring-cloud-alicloud-context" options="-parameters -parameters" />
+      <module name="spring-cloud-alicloud-oss" options="-parameters -parameters" />
+      <module name="spring-cloud-alicloud-schedulerx" options="-parameters -parameters" />
+      <module name="spring-cloud-alicloud-sms" options="-parameters -parameters" />
+      <module name="spring-cloud-bus-rocketmq-example" options="-parameters -parameters" />
+      <module name="spring-cloud-dubbo-client-sample" options="-parameters -parameters" />
+      <module name="spring-cloud-dubbo-consumer-sample" options="-parameters -parameters" />
+      <module name="spring-cloud-dubbo-provider-sample" options="-parameters -parameters" />
+      <module name="spring-cloud-dubbo-provider-web-sample" options="-parameters -parameters" />
+      <module name="spring-cloud-dubbo-sample-api" options="-parameters -parameters" />
+      <module name="spring-cloud-dubbo-server-sample" options="-parameters -parameters" />
+      <module name="spring-cloud-dubbo-servlet-gateway-sample" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-alibaba-nacos-config" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-alibaba-nacos-config-server" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-alibaba-nacos-discovery" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-alibaba-seata" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-alibaba-sentinel" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-alibaba-sidecar" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-alicloud-acm" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-alicloud-ans" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-alicloud-oss" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-alicloud-schedulerx" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-alicloud-sms" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-bus-rocketmq" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-dubbo" options="-parameters -parameters" />
+      <module name="spring-cloud-starter-stream-rocketmq" options="-parameters -parameters" />
+      <module name="spring-cloud-stream-binder-rocketmq" options="-parameters -parameters" />
+      <module name="storage-service" options="-parameters -parameters" />
     </option>
   </component>
 </project>
