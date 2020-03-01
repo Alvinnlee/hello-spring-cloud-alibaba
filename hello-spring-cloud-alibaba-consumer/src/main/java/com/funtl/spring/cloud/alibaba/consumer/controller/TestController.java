@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.HashMap;
 import java.util.Map;
 
 @RestController
@@ -47,9 +48,26 @@ public class TestController {
         headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
         MultiValueMap<String, String> map= new LinkedMultiValueMap<>();
         map.add("email", "844072586@qq.com");
+        map.add("u", "小李");
         HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<>(map, headers);
         ResponseEntity<String> response = restTemplate.postForEntity( url, request , String.class );
         System.out.println(response.getBody());
         return "ok";
     }
+
+    @GetMapping(value = "c")
+    public String echo3( ) {
+//        RestTemplate restTemplate = new RestTemplate();
+        String url = "http://service-provider/c";
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("email", "844072586@qq.com");
+        map.put("u", "小李");
+        HttpEntity<Map<String, Object>> request = new HttpEntity<>(map, headers);
+        ResponseEntity<String> response = restTemplate.postForEntity( url, request , String.class );
+        System.out.println(response.getBody());
+        return "ok";
+    }
+
 }

@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="286d3bd3-ea6c-44d9-97b1-7cd2338f451a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/src/main/java/com/funtl/spring/cloud/alibaba/consumer/configure/ConsumerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/src/main/java/com/funtl/spring/cloud/alibaba/consumer/configure/ConsumerConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/src/main/java/com/funtl/spring/cloud/alibaba/consumer/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/src/main/java/com/funtl/spring/cloud/alibaba/consumer/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/target/classes/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/target/classes/com/funtl/spring/cloud/alibaba/consumer/configure/ConsumerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/target/classes/com/funtl/spring/cloud/alibaba/consumer/configure/ConsumerConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/target/classes/com/funtl/spring/cloud/alibaba/consumer/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/target/classes/com/funtl/spring/cloud/alibaba/consumer/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/ProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/AdminLoginLogReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/AdminLoginLogReceive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/AdminLoginLogSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/AdminLoginLogSink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/EchoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/EchoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/target/classes/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/target/classes/com/funtl/spring/cloud/alibaba/provider/ProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/target/classes/com/funtl/spring/cloud/alibaba/provider/ProviderApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/target/classes/com/funtl/spring/cloud/alibaba/provider/controller/EchoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/target/classes/com/funtl/spring/cloud/alibaba/provider/controller/EchoController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hello-spring-cloud-alibaba-dependencies/target/" />
@@ -108,20 +100,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/src/main/java/com/funtl/spring/cloud/alibaba/consumer/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="49" column="57" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="57" />
+            <state relative-caret-position="258">
+              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+              <folding>
+                <element signature="e#2452#2468#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/EchoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="46" column="52" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="52" />
+            <state relative-caret-position="115">
+              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -143,18 +138,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
               <caret line="20" column="65" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/src/main/java/com/funtl/spring/cloud/alibaba/consumer/configure/MessageSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -272,9 +255,9 @@
         <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/AdminLoginLogReceive.java" />
         <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/AdminLoginLogSink.java" />
         <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/ProviderApplication.java" />
-        <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/EchoController.java" />
-        <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/src/main/java/com/funtl/spring/cloud/alibaba/consumer/controller/TestController.java" />
         <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/src/main/java/com/funtl/spring/cloud/alibaba/consumer/configure/ConsumerConfiguration.java" />
+        <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/src/main/java/com/funtl/spring/cloud/alibaba/consumer/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/EchoController.java" />
       </list>
     </option>
   </component>
@@ -285,8 +268,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="426" />
-    <option name="y" value="86" />
+    <option name="x" value="462" />
+    <option name="y" value="8" />
     <option name="width" value="2440" />
     <option name="height" value="1492" />
   </component>
@@ -557,7 +540,7 @@
       <workItem from="1580778820608" duration="10015000" />
       <workItem from="1580955197001" duration="58000" />
       <workItem from="1582363294488" duration="924000" />
-      <workItem from="1583067612909" duration="306000" />
+      <workItem from="1583067612909" duration="2498000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1576157302930</created>
@@ -587,17 +570,23 @@
       <option name="project" value="LOCAL" />
       <updated>1580609521391</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3.1">
+      <created>1583067963622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583067963622</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57815000" />
+    <option name="totallyTimeSpent" value="60007000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="210" y="43" width="1220" height="746" extended-state="0" />
-    <editor active="true" />
+    <frame x="504" y="17" width="1220" height="746" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3488372" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3488372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -619,7 +608,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run Dashboard" order="13" visible="true" weight="0.14634146" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="13" visible="true" weight="0.38699186" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.41788617" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="16" />
@@ -638,7 +627,7 @@
       <window_info anchor="right" id="CDI" order="12" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3126615" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3488372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -654,13 +643,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25365853" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33495936" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run Dashboard" order="13" weight="0.297561" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="13" visible="true" weight="0.38699186" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.41788617" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="16" />
@@ -685,19 +674,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/EchoController.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="3" />
+    <MESSAGE value="3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
@@ -808,13 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/http/MediaType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -974,17 +946,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/EchoController.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/http/MediaType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="52" />
+        <state relative-caret-position="116">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-consumer/src/main/java/com/funtl/spring/cloud/alibaba/consumer/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="49" column="57" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="57" />
+        <state relative-caret-position="258">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+          <folding>
+            <element signature="e#2452#2468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-provider/src/main/java/com/funtl/spring/cloud/alibaba/provider/controller/EchoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
         </state>
       </provider>
     </entry>

@@ -48,4 +48,10 @@ public class EchoController {
         System.out.println(map);
         return "nnnn";
     }
+
+    @RequestMapping(value = "c")
+    public Object a12( @RequestBody String map) {
+        System.out.println(map);
+        return "nnnn";
+    }
 }
