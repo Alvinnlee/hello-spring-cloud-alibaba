@@ -1,1 +1,0 @@
-java -jar hello-spring-cloud-alibaba-provider-0.0.1-SNAPSHOT.jar

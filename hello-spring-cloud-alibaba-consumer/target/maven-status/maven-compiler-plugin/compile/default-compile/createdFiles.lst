@@ -1,5 +1,0 @@
-com\funtl\spring\cloud\alibaba\consumer\ConsumerApplication.class
-com\funtl\spring\cloud\alibaba\consumer\controller\TestController.class
-com\funtl\spring\cloud\alibaba\consumer\controller\TestEchoController.class
-com\funtl\spring\cloud\alibaba\consumer\configure\ConsumerConfiguration.class
-com\funtl\spring\cloud\alibaba\consumer\service\EchoService.class
