@@ -8,12 +8,12 @@
     <packaging>pom</packaging>
     <url>http://www.funtl.com</url>
     <properties>
-        <!--<spring-cloud.version>Greenwich.SR2</spring-cloud.version>-->
-        <!--<spring-cloud-alibaba.version>2.1.1.RELEASE</spring-cloud-alibaba.version>-->
+        <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
+        <spring-cloud-alibaba.version>2.1.1.RELEASE</spring-cloud-alibaba.version>
 
-        <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
+        <!--<spring-cloud.version>Hoxton.SR1</spring-cloud.version>-->
         <!--<spring-cloud-alibaba.version>2.1.1.RELEASE</spring-cloud-alibaba.version>-->
-        <spring-cloud-alibaba.version>2.2.0.RELEASE</spring-cloud-alibaba.version>
+        <!--<spring-cloud-alibaba.version>2.2.0.RELEASE</spring-cloud-alibaba.version>-->
 
 
     </properties>
